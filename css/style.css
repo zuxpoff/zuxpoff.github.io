@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url(../images/optimize.jpg); /* Путь к фоновому изображению */
+  background-size: cover;
+  background-attachment: fixed; /* Фиксируем фон веб-страницы */
+}
+.navbar-bottom {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.card-title {
+  font-weight: bold;
+}
